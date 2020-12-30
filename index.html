@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      /*把圆改成半圆*/
+      .rainbow {
+        /* border: 1px solid black; */
+        height: 100px;
+        /* display: inline-block; */
+        overflow: hidden;
+      }
+      /*背景设置为白色*/
+      body {
+        /* border: 1px solid black; */
+        background: #ffffff;
+      }
+
+      /*阻止合并*/
+      .rainbow div {
+        overflow: hidden;
+      }
+
+      /*每一圈彩虹设置*/
+      .rainbow > div {
+        /* border: 1px solid black; */
+        width: 200px;
+        height: 200px;
+        background: #ff0000;
+        border-radius: 50%;
+      }
+      .rainbow > div > div {
+        /* border: 1px solid black; */
+        margin: 10px;
+        height: 180px;
+        background: #ff9000;
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div {
+        /* border: 1px solid black; */
+        margin: 10px;
+        height: 160px;
+        background: #fffc00;
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div > div {
+        /* border: 1px solid black; */
+        margin: 10px;
+        height: 140px;
+        background: #00ff06;
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div > div > div {
+        /* border: 1px solid black; */
+        margin: 10px;
+        height: 120px;
+        background: #00fcff;
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div > div > div > div {
+        /* border: 1px solid black; */
+        margin: 10px;
+        height: 100px;
+        background: #0600ff;
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div > div > div > div > div {
+        /* border: 1px solid black; */
+        margin: 10px;
+        height: 80px;
+        background: #a800ff;
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div > div > div > div > div > div {
+        /* border: 1px solid black; */
+        margin: 10px;
+        height: 60px;
+        background: #ffffff;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rainbow">
+      <div>
+        <div>
+          <div>
+            <div>
+              <div>
+                <div>
+                  <div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
